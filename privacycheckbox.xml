@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.8" group="fields" method="upgrade">
+	<name>plg_fields_privacycheckbox</name>
+	<author>Tobias Zulauf</author>
+	<creationDate>07.02.2018</creationDate>
+	<copyright>Copyright (C) 2018 Tobias Zulauf All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorUrl>www.jah-tz.de</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_FIELDS_PRIVACYCHECKBOX_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<folder>fields</folder>
+		<folder>language</folder>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+		<filename plugin="privacycheckbox">privacycheckbox.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="textvalue"
+					type="text"
+					label="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_TEXTVALUE_LABEL"
+					size="30"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" name="PrivacyCheckbox Update Site">https://raw.githubusercontent.com/zero-24/plg_fields_privacycheckbox/master/update.xml</server>
+	</updateservers>
+</extension>
