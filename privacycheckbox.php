@@ -43,7 +43,8 @@ class PlgFieldsPrivacyCheckbox extends FieldsPlugin
 
 		$option = new DOMElement('option');
 		$option->nodeValue = $textValue;
-		$fieldNode->appendChild($option);
+		$element = $fieldNode->appendChild($option);
+		$element->setAttribute('value', 'privacycheckbox');
 
 		return $fieldNode;
 	}
