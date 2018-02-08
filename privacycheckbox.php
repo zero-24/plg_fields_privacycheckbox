@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 JLoader::import('components.com_fields.libraries.fieldsplugin', JPATH_ADMINISTRATOR);
 
 /**
- * Fields Checkboxes Plugin
+ * PrivacyCheckbox Plugin
  *
  * @since  1.0.0
  */
@@ -50,7 +50,7 @@ class PlgFieldsPrivacyCheckbox extends FieldsPlugin
 	}
 
 	/**
-	 * Returns an array of key values to put in a list from the given field.
+	 * Returns the text value from the given field.
 	 *
 	 * @param   stdClass  $field  The field.
 	 *
