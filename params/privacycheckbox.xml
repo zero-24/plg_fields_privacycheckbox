@@ -4,7 +4,10 @@
 		<fieldset name="fieldparams">
 			<field
 				name="textvalue"
-				type="text"
+				type="textarea"
+				rows="7"
+				cols="40"
+				filter="raw"
 				label="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_TEXTVALUE_LABEL"
 				size="30"
 			/>

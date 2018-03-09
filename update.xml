@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>PrivacyCheckbox 1.0.0</name>
+		<name>PrivacyCheckbox 1.0.1</name>
 		<description>PrivacyCheckbox Plugin</description>
 		<element>privacycheckbox</element>
 		<type>plugin</type>
