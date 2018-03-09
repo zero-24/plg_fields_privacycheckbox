@@ -12,7 +12,6 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_fields_privacycheckbox/releases/download/1.0.2/plg_fields_privacycheckbox.zip</downloadurl>
 		</downloads>
-		<sha512>241a10862e608fc7d0115e0a2b08baea58561745e58fbe90af7f457c27e13e686860d93dc0f1bbc221eafbd880dbf0a561401e075055f7660b21e31069266889</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
