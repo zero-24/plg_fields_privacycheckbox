@@ -6,7 +6,7 @@
 	<copyright>Copyright (C) 2018 Tobias Zulauf All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<authorUrl>www.jah-tz.de</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>PLG_FIELDS_PRIVACYCHECKBOX_XML_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>
 	<files>
