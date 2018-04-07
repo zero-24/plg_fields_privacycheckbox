@@ -4,12 +4,21 @@
 		<fieldset name="fieldparams">
 			<field
 				name="textvalue"
-				type="textarea"
+				type="editor"
+				label="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_TEXTVALUE_LABEL"
+				description="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_TEXTVALUE_DESC"
 				rows="7"
 				cols="40"
-				filter="raw"
-				label="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_TEXTVALUE_LABEL"
-				size="30"
+				filter="safehtml"
+			/>
+			<field
+				name="emailtextvalue"
+				type="editor"				
+				label="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_EMAILTEXTVALUE_LABEL"
+				description="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_EMAILTEXTVALUE_DESC"
+				rows="7"
+				cols="40"
+				filter="string"
 			/>
 		</fieldset>
 	</fields>

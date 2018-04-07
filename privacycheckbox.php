@@ -8,6 +8,8 @@
 
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Language\Text;
+
 JLoader::import('components.com_fields.libraries.fieldsplugin', JPATH_ADMINISTRATOR);
 
 /**
@@ -39,7 +41,7 @@ class PlgFieldsPrivacyCheckbox extends FieldsPlugin
 
 		$fieldNode->setAttribute('validate', 'options');
 
-		$textValue = htmlspecialchars(strip_tags(JText::_($this->getTextValue($field)), '<a>'), ENT_COMPAT, 'UTF-8');
+		$textValue = htmlspecialchars(Text::_($this->getTextValue($field)), ENT_COMPAT, 'UTF-8');
 
 		$option = new DOMElement('option');
 		$option->nodeValue = $textValue;
@@ -64,6 +66,31 @@ class PlgFieldsPrivacyCheckbox extends FieldsPlugin
 		$params = clone $this->params;
 		$params->merge($field->fieldparams);
 
-		return $params->get('textvalue', '');
+		return strip_tags($params->get('textvalue', ''), '<a>');
+	}
+
+	/**
+	 * Returns the email text value from the given field.
+	 *
+	 * @param   stdClass  $field  The field.
+	 *
+	 * @return  string
+	 *
+	 * @since   1.0.3
+	 */
+	public function getEmailTextValue($field)
+	{
+		// Fetch the options from the plugin
+		$params = clone $this->params;
+		$params->merge($field->fieldparams);
+
+		$emailTextValue = $params->get('emailtextvalue', '');
+
+		if (empty($emailTextValue))
+		{
+			return Text::_('PLG_FIELDS_PRIVACYCHECKBOX_CHECKBOX_CHECKED');
+		}
+
+		return $emailTextValue;
 	}
 }
