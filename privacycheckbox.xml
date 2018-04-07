@@ -2,7 +2,7 @@
 <extension type="plugin" version="3.8" group="fields" method="upgrade">
 	<name>plg_fields_privacycheckbox</name>
 	<author>Tobias Zulauf</author>
-	<creationDate>08.02.2018</creationDate>
+	<creationDate>07.04.2018</creationDate>
 	<copyright>Copyright (C) 2018 Tobias Zulauf All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<authorUrl>www.jah-tz.de</authorUrl>
