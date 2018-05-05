@@ -66,6 +66,6 @@ Any other plugin version I may have added to the download section don't get upda
 
 ## Issues / Translations
 
-You have found an Issue, you have done a translation, have a question regarding the setup of the plugin?
+You have found an Issue, you have done a translation ot have a question / suggestion regarding the plugin?
 [Open an issue in this repo](https://github.com/zero-24/plg_fields_privacycheckbox/issues/new) or submit a pull request with the proposed changes.
 
