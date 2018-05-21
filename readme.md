@@ -20,8 +20,19 @@ This plugin allows you to creates a single checkbox field in any form that suppo
  - Set the type to `privacycheckbox`
  - Add your desired text to the `Checkbox Note` field (You can include links using the `<a>` tag)
  - Add your desired text to the `Email Text` field
-- `Save & Close`
-- See the Joomla Core Contact Form extended with our consent field
+ - Go to the permission tab and allow `Public` to `Edit Custom Field Value`
+ - `Save & Close`
+ - See the Joomla Core Contact Form extended with our consent field
+
+### Option descriptions
+
+##### Checkbox Note
+
+This is the message showed next to the checkbox containing your message about privacy.
+
+##### Email Text
+
+This is the message included in the email send to the user next to the custom field. Per default it is just `checked`.
 
 ### Implement multilanguage
 
