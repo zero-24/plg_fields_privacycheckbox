@@ -2,6 +2,11 @@
 
 This Joomla plugin lets you create new fields of type 'privacycheckbox' in any extensions where custom fields are supported.
 
+## Github Sponsors
+
+You use this extension in an commercial context and / or want to support me and give something back?
+This extension is part of [Github Sponsors](https://github.com/sponsors/zero-24/) by sponsoring me, you help me continue my oss work, write bug fixes, improving features and translations and maintain my extensions. Thanks for your support.
+
 ## Feature
 
 This plugin allows you to creates a single checkbox field in any form that supports custom fields e.g. in the contact form where you can make sure the privacy message is checked. But this also allow any other single checkbox usecase. Over the core plugin this allows to use a `<a>` tag inside of the message to be shown to the user. Any other html tag is going to be removed.
