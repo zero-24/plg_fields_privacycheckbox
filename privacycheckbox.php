@@ -30,7 +30,7 @@ class PlgFieldsPrivacyCheckbox extends FieldsPlugin
 	 *
 	 * @since   1.0.0
 	 */
-	public function onCustomFieldsPrepareDom($field, DOMElement $parent, JForm $form)
+	public function onCustomFieldsPrepareDom($field, DOMElement $parent, Joomla\CMS\Form\Form $form)
 	{
 		$fieldNode = parent::onCustomFieldsPrepareDom($field, $parent, $form);
 
