@@ -2,7 +2,7 @@
 
 This Joomla plugin lets you create new fields of type 'privacycheckbox' in any extensions where custom fields are supported.
 
-## Github Sponsors
+## Sponsoring and Donation
 
 You use this extension in an commercial context and / or want to support me and give something back?
 There are two ways to support me right now:
