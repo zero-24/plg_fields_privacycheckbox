@@ -13,7 +13,7 @@
 			/>
 			<field
 				name="emailtextvalue"
-				type="editor"				
+				type="editor"
 				label="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_EMAILTEXTVALUE_LABEL"
 				description="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_EMAILTEXTVALUE_DESC"
 				rows="7"
