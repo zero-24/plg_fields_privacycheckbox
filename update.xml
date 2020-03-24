@@ -12,7 +12,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_fields_privacycheckbox/releases/download/1.0.5/plg_fields_privacycheckbox.zip</downloadurl>
 		</downloads>
-		<sha512>fb8e56d1757dfe6c95b0d59f376c0d5e2f0fb1e5a7d13ee834d424a79fd9402e37bca37d7d6a5407ab8d8b5e4448d05d279bdb1d6fdfe9b4cc3c918f811f454e</sha512>
+		<sha512>649fcc13ae76793e4f354699fb692a6f24462af87fcfeff0ad98e94a3d2469fe2f8a379b0ab8ab4584a0c4583bc7dfadad200a48abf6730d62994846eb185283</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
@@ -33,7 +33,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_fields_privacycheckbox/releases/download/1.0.5/plg_fields_privacycheckbox.zip</downloadurl>
 		</downloads>
-		<sha512>fb8e56d1757dfe6c95b0d59f376c0d5e2f0fb1e5a7d13ee834d424a79fd9402e37bca37d7d6a5407ab8d8b5e4448d05d279bdb1d6fdfe9b4cc3c918f811f454e</sha512>
+		<sha512>649fcc13ae76793e4f354699fb692a6f24462af87fcfeff0ad98e94a3d2469fe2f8a379b0ab8ab4584a0c4583bc7dfadad200a48abf6730d62994846eb185283</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
