@@ -90,6 +90,10 @@ Any other plugin version I may have added to the download section don't get upda
 You have found an Issue, you have done a translation or have a question / suggestion regarding the plugin?
 [Open an issue in this repo](https://github.com/zero-24/plg_fields_privacycheckbox/issues/new) or submit a pull request with the proposed changes.
 
+## Joomla! Extensions Directory (JED)
+
+This plugin can also been found in the Joomla! Extensions Directory: [PrivacyCheckbox by zero24](https://extensions.joomla.org/extension/authoring-a-content/custom-fields/privacycheckbox/)
+
 ## Release steps
 
 - `build/build.sh`
