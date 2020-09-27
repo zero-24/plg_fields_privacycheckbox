@@ -20,8 +20,8 @@ This plugin allows you to creates a single checkbox field in any form that suppo
 
 ### Initial setup the plugin with the example for the contact form
 
-- Download the latest version of the plugin: https://github.com/zero-24/plg_fields_privacycheckbox/releases/latest
-- Install & Enable the plugin
+- [Download the latest version of the plugin](https://github.com/zero-24/plg_fields_privacycheckbox/releases/latest)
+- Install & Enable the plugin `Fields - PrivacyCheckbox`
 - Create a new custom field for the email form of the contact component
  - Components -> Contacts -> Fields
  - Select the contect `Mail` from the dropdown
