@@ -2,11 +2,11 @@
 <extension type="plugin" version="3.8" group="fields" method="upgrade">
 	<name>plg_fields_privacycheckbox</name>
 	<author>Tobias Zulauf</author>
-	<creationDate>24.03.2020</creationDate>
+	<creationDate>2021-07-10</creationDate>
 	<copyright>Copyright (C) 2018 - 2020 Tobias Zulauf All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<authorUrl>www.jah-tz.de</authorUrl>
-	<version>1.0.5</version>
+	<version>1.0.6</version>
 	<description>PLG_FIELDS_PRIVACYCHECKBOX_XML_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>
 	<files>
@@ -30,7 +30,7 @@
 				/>
 				<field
 					name="emailtextvalue"
-					type="editor"				
+					type="editor"
 					label="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_EMAILTEXTVALUE_LABEL"
 					description="PLG_FIELDS_PRIVACYCHECKBOX_PARAMS_EMAILTEXTVALUE_DESC"
 					rows="7"

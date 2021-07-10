@@ -1,18 +1,18 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>PrivacyCheckbox 1.0.5</name>
+		<name>PrivacyCheckbox 1.0.6</name>
 		<description>PrivacyCheckbox Plugin</description>
 		<element>privacycheckbox</element>
 		<type>plugin</type>
 		<folder>fields</folder>
 		<client>site</client>
-		<version>1.0.5</version>
+		<version>1.0.6</version>
 		<infourl title="PrivacyCheckbox Plugin">https://github.com/zero-24/plg_fields_privacycheckbox</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_fields_privacycheckbox/releases/download/1.0.5/plg_fields_privacycheckbox.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_fields_privacycheckbox/releases/download/1.0.6/plg_fields_privacycheckbox.zip</downloadurl>
 		</downloads>
-		<sha512>649fcc13ae76793e4f354699fb692a6f24462af87fcfeff0ad98e94a3d2469fe2f8a379b0ab8ab4584a0c4583bc7dfadad200a48abf6730d62994846eb185283</sha512>
+		<sha512>c71fa4f4734a2318a84ce82bbe42e49080336f09a4e7948c5645e21a45e6af4cc313ef95efb4a22f0a71e9ceeb0aa2b56f32593e9065dfaa03175b3455f25fb3</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
@@ -22,18 +22,18 @@
 		<targetplatform name="joomla" version="3.([89]|10)"/>
 	</update>
 	<update>
-		<name>PrivacyCheckbox 1.0.5</name>
+		<name>PrivacyCheckbox 1.0.6</name>
 		<description>PrivacyCheckbox Plugin</description>
 		<element>privacycheckbox</element>
 		<type>plugin</type>
 		<folder>fields</folder>
 		<client>site</client>
-		<version>1.0.5</version>
+		<version>1.0.6</version>
 		<infourl title="PrivacyCheckbox Plugin">https://github.com/zero-24/plg_fields_privacycheckbox</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_fields_privacycheckbox/releases/download/1.0.5/plg_fields_privacycheckbox.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/zero-24/plg_fields_privacycheckbox/releases/download/1.0.6/plg_fields_privacycheckbox.zip</downloadurl>
 		</downloads>
-		<sha512>649fcc13ae76793e4f354699fb692a6f24462af87fcfeff0ad98e94a3d2469fe2f8a379b0ab8ab4584a0c4583bc7dfadad200a48abf6730d62994846eb185283</sha512>
+		<sha512>c71fa4f4734a2318a84ce82bbe42e49080336f09a4e7948c5645e21a45e6af4cc313ef95efb4a22f0a71e9ceeb0aa2b56f32593e9065dfaa03175b3455f25fb3</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
