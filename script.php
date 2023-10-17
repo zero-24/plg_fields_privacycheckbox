@@ -8,12 +8,14 @@
 
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Installer\InstallerScript;
+
 /**
  * Installation class to perform additional changes during install/uninstall/update
  *
  * @since  1.0
  */
-class PlgFieldsPrivacyCheckboxInstallerScript extends JInstallerScript
+class PlgFieldsPrivacyCheckboxInstallerScript extends InstallerScript
 {
 	/**
 	 * Extension script constructor.
