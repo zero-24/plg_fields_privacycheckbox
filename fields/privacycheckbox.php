@@ -6,7 +6,7 @@
  * @license    http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License Version 2 or Later
  */
 
-defined('JPATH_PLATFORM') or die;
+defined('_JEXEC') or die;
 
 JFormHelper::loadFieldClass('Checkboxes');
 
