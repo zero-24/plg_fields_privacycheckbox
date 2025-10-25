@@ -9,8 +9,7 @@
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Language\Text;
-
-JLoader::import('components.com_fields.libraries.fieldsplugin', JPATH_ADMINISTRATOR);
+use Joomla\Component\Fields\Administrator\Plugin\FieldsPlugin;
 
 /**
  * PrivacyCheckbox Plugin
