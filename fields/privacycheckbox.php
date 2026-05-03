@@ -8,7 +8,10 @@
 
 defined('_JEXEC') or die;
 
-JFormHelper::loadFieldClass('Checkboxes');
+use Joomla\CMS\Form\FormHelper;
+use Joomla\CMS\Form\Field\CheckboxesField;
+
+FormHelper::loadFieldClass('Checkboxes');
 
 /**
  * Form Field class for the Joomla Platform.
@@ -16,10 +19,10 @@ JFormHelper::loadFieldClass('Checkboxes');
  * This is a boolean field with null for false and the specified option for true
  *
  * @link   http://www.w3.org/TR/html-markup/input.checkbox.html#input.checkbox
- * @see    JFormFieldCheckboxes
+ * @see    CheckboxesField
  * @since  11.1
  */
-class JFormFieldPrivacycheckbox extends JFormFieldCheckboxes
+class JFormFieldPrivacycheckbox extends CheckboxesField
 {
 	/**
 	 * The form field type.
